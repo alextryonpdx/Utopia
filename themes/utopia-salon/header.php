@@ -31,8 +31,10 @@
 <body>
 	<header>
 		<div class="row fullWidth">
-			<div class="large-6 medium-3 small-12 small-text-center medium-text-left columns"><a href="/"><img id="logo" src="<?=get_template_directory_uri()?>/images/logo-top.png" alt="Utopia Salon & Day Spa"></a></div>
-			<div class="large-6 medium-9 columns show-for-medium-up medium-text-right">
+			<div class=" medium-3 small-12 small-text-center medium-text-left columns"><a href="/">
+				<img id="logo" src="<?=get_template_directory_uri()?>/images/logo-top.png" alt="Utopia Salon & Day Spa"></a></div>
+			<div class=" medium-9 columns show-for-medium-up medium-text-right" style="padding-top:6px;">
+				<a target="_blank" href="https://www.google.com/maps/place/Utopia+Salon+%26+Day+Spa/@45.6778157,-122.6588323,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x5495aef44128d791:0x443342bb69e1996a!2s1503+NE+78th+St,+Vancouver,+WA+98665!3b1!8m2!3d45.6779738!4d-122.6564828!3m4!1s0x5495aef450306a79:0xfe5be1a64abebb7e!8m2!3d45.6778157!4d-122.6566383" style="color:#fff;">1503 NE 78th St. Vancouver, WA 98665</a>&nbsp; &nbsp;<a href="tel:13605734806" style="color:#fff;">(360)573-4806</a>
 				<nav>
 					<ul>
 						<li data-dropdown="menu-1" data-options="is_hover:true" aria-expanded="false">
@@ -56,7 +58,7 @@
 								<li><a href="<?=get_permalink(16)?>">Packages</a></li>
 							</ul>
 						</li>
-						<br>
+						<!-- <br> -->
 						<li data-dropdown="menu-3" data-options="is_hover:true" aria-expanded="false">
 							<a><i class="icon nav-icon-plants"></i> The Culture</a>
 							<ul id="menu-3" data-dropdown-content="" class="large f-dropdown content row" aria-hidden="true">
@@ -69,6 +71,7 @@
 						<li><a href="<?=get_permalink(22)?>"><i class="icon nav-icon-flip-flops"></i> Contact</a></li>
 					</ul>
 				</nav>
+
 			</div>
 		</div>
 	</header>

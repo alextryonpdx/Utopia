@@ -25,28 +25,32 @@ get_header();
 		</div>
 
 		<div class="row" id="slide3">
-			<div class="small-12 medium-12 columns valign">
+			<div class="small-12 medium-12 columns valign large-text-right">
 				<h1>Get away</h1>
 				<h2>without really getting away.</h2>
-				<h2>Your paradise awaits you, right here in Vancouver.</h2>
+				<h2>Your paradise awaits you,<br> right here in Vancouver.</h2>
 				<a class="book-button" target="_target" href="#">Book Now</a>
 			</div>
 		</div>
 		<div class="row" id="slide-top200">
 		<div id="200bar" style="
-				    background: -webkit-linear-gradient(rgba(256,256,256,.8), rgba(256,256,256,.0));
-				        background: -moz-linear-gradient(rgba(256,256,256,.8), rgba(256,256,256,.0));
-				            background: -o-linear-gradient(rgba(256,256,256,.8), rgba(256,256,256,.0));
-				                background: linear-gradient(rgba(256,256,256,.8), rgba(256,256,256,.0));
+				    background: -webkit-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.0));
+				        background: -moz-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.0));
+				            background: -o-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.0));
+				                background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.0));
 				                display: inline-block;
-		">
+				                text-align:center;
+				                padding-top: 20px;
+		">	
+			<div class="small-12 medium-3 columns">
+				<img style="float: left" id="st200-logo" src="/wp-content/themes/utopia-salon/images/st200-logo.png" alt="Salon Today 200">
+			</div>
 			<div class="small-12 medium-6 columns">
 				<!-- <h1>Top 200 Salon</h1> -->
-				<h3>Come on in and discover why Utopia was named one of Salon Today's Top 200 salons in the nation &amp; Best of Clark County since 2008 (8 Time Winner)</h3>
+				<h4>Come on in and discover why Utopia was named one of Salon Today's Top 200 salons in the nation &amp;<br>Best of Clark County since 2008 (8 Time Winner)</h4>
 			</div>
 				<!-- <div class="row"> -->
-			<div class="small-12 medium-6 columns">
-				<img style="float: right" id="st200-logo" src="/wp-content/themes/utopia-salon/images/st200-logo.png" alt="Salon Today 200">
+			<div class="small-12 medium-3 columns">
 				<!-- <p>one of Salon Today's Top 200 salons in the nation</p> -->
 				<img style="float: right; margin-right: 15px;" id="bocc-logo" src="/wp-content/themes/utopia-salon/images/bocc-logo.png" alt="Best of Clark County">
 				<!-- <p>Best of Clark County since 2008 (8 Time Winner)</p> -->

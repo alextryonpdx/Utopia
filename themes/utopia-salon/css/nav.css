@@ -1,5 +1,5 @@
 header nav ul{list-style:none;margin-top:13px;}
-header nav ul:not(.f-dropdown){line-height:55px;}
+/*header nav ul:not(.f-dropdown){line-height:55px;}*/
 header nav ul li{display:inline-block;margin-right:10px;}
 header nav ul li a{color:#fff;font-size:150%;font-weight:300 !important;font-family:"anago";}
 
