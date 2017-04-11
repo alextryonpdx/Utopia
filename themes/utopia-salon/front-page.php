@@ -12,7 +12,8 @@ get_header();
 			<div class="small-text-center small-12 medium-8 large-text-right large-offset-6 large-6 columns valign">
 				<h1>Pamper me.</h1>
 				<h2>Let go with a body treatment or experience the proven health benefits of message therapy.</h2>
-				<a class="book-button" target="_target" href="#">Book Now</a>
+				<a class="book-button" id="book-button2" target="_target" href="#">Book Now</a>
+				<a class="learn-button" target="_target" href="#">Learn More</a>
 			</div>
 		</div>
 
@@ -21,6 +22,7 @@ get_header();
 				<h1>Perfect color,<br>peace of mind...</h1>
 				<h2>Done perfect every time.</h2>
 				<a class="book-button" target="_target" href="#">Book Now</a>
+				<a class="learn-button" target="_target" href="#">Learn More</a>
 			</div>
 		</div>
 
@@ -30,6 +32,7 @@ get_header();
 				<h2>without really getting away.</h2>
 				<h2>Your paradise awaits you,<br> right here in Vancouver.</h2>
 				<a class="book-button" target="_target" href="#">Book Now</a>
+				<a class="learn-button" target="_target" href="#">Learn More</a>
 			</div>
 		</div>
 		<div class="row" id="slide-top200">
