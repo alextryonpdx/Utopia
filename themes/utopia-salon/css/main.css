@@ -442,15 +442,114 @@ section.page-slides .row {
 /***** CONTACT PAGE *****/
 
 .contact-blocks {
-  min-height: 200px;
-  border: 1px red solid;
+  height: 200px;
+  text-align: center;
+  background-color: #bfd730;
+  transition: 200ms all ease-in;
+  border-bottom: 10px solid white;
+  padding: 25px 0;
+}
+
+.contact-blocks:hover {
+  background-color: #c8dd4e;
+  transition: 200ms all ease-in;
+}
+
+#contact-phone {
+    border-left: 10px solid white;
+    border-right: 5px solid white;
+}
+
+#contact-address {
+    border-right: 10px solid white;
+    border-left: 5px solid white;
+}
+
+
+.contact-blocks h1,
+.contact-blocks h2,
+.contact-blocks h3,
+.contact-blocks h4 {
+  color: #fff
+}
+
+.contact-blocks-book {
+  height: 400px;
+  border-bottom: 10px solid white;
+}
+
+#contact-book-salon {
+  background-image: url('../images/salon_booking_crop.jpg');
+  background-size: 100% auto;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  transition: 200ms all ease-in;
+}
+
+#contact-book-salon:hover {
+  background-size: 110%;
+  transition: 200ms all ease-in;
+}
+
+#contact-book-spa {
+  background-image: url('../images/spa_booking_crop.jpg');
+  background-size: 100% auto;
+  background-position: center 90%;
+  background-repeat: no-repeat;
+  transition: 200ms all ease-in;
+}
+
+#contact-book-spa:hover {
+  background-size: 110%;
+  transition: 200ms all ease-in;
 }
 
 #contact-pic { 
-  width: 100%;
+  height: 500px;
+  background-image: url('../images/utopia_flowers.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
 }
 
+/* Contact Form */
+#FSContact1 {
+    width: 50%;
+    margin: auto;
+}
 
+form#fscf_form1 {
+    padding-top: 12%;
+}
+
+#FSContact1 input {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+textarea#fscf_field1_3 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.fscf-label {
+    display: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #006b27;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #006b27;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #006b27;
+  opacity: 1;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #006b27;
+  opacity: 1;
+}
 
 /* extra responsive styles */
 
@@ -463,6 +562,7 @@ section.page-slides .row {
     white-space: normal
   }
 }
+
 
 /* small only */
 @media only screen and (max-width:40em) {
@@ -505,5 +605,25 @@ section.page-slides .row {
   
   .content-grid .row {
     border-bottom: none;
+  }
+
+  #contact-blocks {
+    padding: 4% 0;
+  }
+
+  #contact-phone {
+    border-right: 10px solid white;
+  }
+
+  #contact-address {
+    border-left: 10px solid white;
+  }
+
+  form#fscf_form1 {
+    padding-top: 18%;
+  }
+
+  #FSContact1 {
+    width: 80%;
   }
 }

@@ -2,19 +2,38 @@
 
 <section>
 	<div class="row fullWidth">
-		<div class="medium-4 small-12 columns contact-blocks" id="contact-phone">
-			<h1>Phone</h1>			
-		</div>
-		<div class="medium-4 small-12 columns contact-blocks" id="contact-book">
-			<h1>Book Now</h1>
-		</div>
-		<div class="medium-4 small-12 columns contact-blocks" id="contact-address">
-			<h1>Address</h1>
-		</div>
+		<a href="https://booking.utopiadayspasalon.com/onlinebooking2/#/">
+			<div class="large-6 medium-12 small-12 columns contact-blocks-book" id="contact-book-salon">
+				<h1>Salon</h1>
+			</div>
+		</a>
+		<a href="https://booking.utopiadayspasalon.com/onlinebooking2/#/">
+			<div class="large-6 medium-12 small-12 columns contact-blocks-book" id="contact-book-spa">
+				<h1>Spa</h1>
+			</div>
+		</a>		
+	</div>
+	<div class="row fullWidth">
+		<a href="tel:13605734806">
+			<div class="medium-6 small-12 columns contact-blocks" id="contact-phone">
+				<h2>Feel free to call us</h2>
+				<h2><strong>(360)573-4806</strong></h2>		
+			</div>
+		</a>
+		<a target="_blank" href="https://www.google.com/maps/place/Utopia+Salon+%26+Day+Spa/@45.6778157,-122.6588323,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x5495aef44128d791:0x443342bb69e1996a!2s1503+NE+78th+St,+Vancouver,+WA+98665!3b1!8m2!3d45.6779738!4d-122.6564828!3m4!1s0x5495aef450306a79:0xfe5be1a64abebb7e!8m2!3d45.6778157!4d-122.6566383">
+			<div class="medium-6 small-12 columns contact-blocks" id="contact-address">
+				<h2>Our address is</h2>
+				<h3><strong>1503 NE 78th St. Vancouver, WA 98665</strong></h3>
+			</div>
+		</a>
 	</div>
 	<div class="row fullWidth" id="contact-pic">
-		<img src="http://utopia.alextryonpdx.com/wp-content/themes/utopia-salon/images/top.png">
+		<!-- <img src="<?php echo get_template_directory_uri(); ?>/images/utopia_flowers.jpg" alt="flowers"> -->
+		<div id="contact-form">
+			<?php echo do_shortcode( '[si-contact-form form="1"]' ); ?>
+		</div>
 	</div>
+
 </section>
 
 <?php get_footer(); ?>
