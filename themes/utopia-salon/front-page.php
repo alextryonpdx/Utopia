@@ -9,7 +9,7 @@ get_header();
 	<section class="page-slides">
 
 		<div class="row" id="slide2">
-			<div class="small-text-center small-12 medium-8 large-text-right large-offset-6 large-6 columns valign">
+			<div class="small-text-center medium-text-left small-12 medium-8 large-text-right large-offset-6 large-6 columns valign">
 				<h1>Pamper me.</h1>
 				<h2>Let go with a body treatment or experience the proven health benefits of message therapy.</h2>
 				<a class="book-button" id="book-button2" target="_target" href="#">Book Now</a>
@@ -27,10 +27,11 @@ get_header();
 		</div>
 
 		<div class="row" id="slide3">
-			<div class="small-12 medium-12 columns valign large-text-right">
+			<div class="small-text-center medium-text-left small-12 medium-8 large-text-right large-offset-6 large-6 columns valign">
 				<h1>Get away</h1>
 				<h2>without really getting away.</h2>
-				<h2>Your paradise awaits you,<br> right here in Vancouver.</h2>
+				<h2>Your paradise awaits you,</h2> 
+				<h2>right here in Vancouver.</h2>
 				<a class="book-button" target="_target" href="#">Book Now</a>
 				<a class="learn-button" target="_target" href="#">Learn More</a>
 			</div>

@@ -117,7 +117,7 @@ section.page-slides h1 {
 
 /*section.page-slides #slide1{background-image:url('../images/slide1_bg.jpg');}*/
 section.page-slides #slide1 {
-  background-image: url('../images/color.png');
+  background-image: url('../images/color-new2-min.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ section.page-slides #slide2 {
   /*background-image:url('../images/slide2_bg.jpg');background-position:100% 60%;*/
 }
 section.page-slides #slide2 {
-  background-image: url('../images/pamper.png');
+  background-image: url('../images/pamper-new2-min.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,20 +140,20 @@ section.page-slides #slide2 h2 {
 
 /*section.page-slides #slide3{background-image:url('../images/slide3_bg.jpg');background-position:95% 100%;}*/
 section.page-slides #slide3 {
-  background-image: url('../images/away.png');
+  background-image: url('../images/away-new2-min.jpg');
   background-position: center;
   background-size: cover;
 }
-section.page-slides #slide3 .valign {
+/*section.page-slides #slide3 .valign {
   top: 37%;
-}
+}*/
 section.page-slides #slide3 img {
   position: relative;
 }
 
 /*section.page-slides #slide-top200{background-image:url('../images/slide-top200.jpg');background-position:50% 100%;text-align:center;background-color:#12120A;}*/
 section.page-slides #slide-top200 {
-  background-image: url('../images/top.png');
+  background-image: url('../images/top-new2-min.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -441,6 +441,52 @@ section.page-slides .row {
 
 /***** CONTACT PAGE *****/
 
+.contact-blocks-book {
+  height: 400px;
+  border-bottom: 10px solid white;
+}
+
+.contact-blocks-book h1 {
+  color: #fff;
+  text-shadow: 0px 0px 21px rgba(0,0,0,1);
+}
+
+#contact-book-salon {
+  background-image: url('../images/salon_booking_crop-min.jpg');
+  background-size: 100% auto;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  transition: 200ms all ease-in;
+}
+
+#contact-book-salon:hover {
+  background-size: 110%;
+  transition: 200ms all ease-in;
+}
+
+#contact-book-spa {
+  background-image: url('../images/spa_booking_crop-min.jpg');
+  background-size: 100% auto;
+  background-position: center 90%;
+  background-repeat: no-repeat;
+  transition: 200ms all ease-in;
+}
+
+#contact-book-spa:hover {
+  background-size: 110%;
+  transition: 200ms all ease-in;
+}
+
+.contact-blocks-book h1 {
+  float: right;
+}
+
+.book-button-contact {
+  clear: both;
+  float: right;
+  margin-top: 180px;
+}
+
 .contact-blocks {
   height: 200px;
   text-align: center;
@@ -458,6 +504,7 @@ section.page-slides .row {
 #contact-phone {
     border-left: 10px solid white;
     border-right: 5px solid white;
+    padding: 35px 0; 
 }
 
 #contact-address {
@@ -470,43 +517,14 @@ section.page-slides .row {
 .contact-blocks h2,
 .contact-blocks h3,
 .contact-blocks h4 {
-  color: #fff
-}
-
-.contact-blocks-book {
-  height: 400px;
-  border-bottom: 10px solid white;
-}
-
-#contact-book-salon {
-  background-image: url('../images/salon_booking_crop.jpg');
-  background-size: 100% auto;
-  background-position: center 50%;
-  background-repeat: no-repeat;
-  transition: 200ms all ease-in;
-}
-
-#contact-book-salon:hover {
-  background-size: 110%;
-  transition: 200ms all ease-in;
-}
-
-#contact-book-spa {
-  background-image: url('../images/spa_booking_crop.jpg');
-  background-size: 100% auto;
-  background-position: center 90%;
-  background-repeat: no-repeat;
-  transition: 200ms all ease-in;
-}
-
-#contact-book-spa:hover {
-  background-size: 110%;
-  transition: 200ms all ease-in;
+  color: #fff;
+  text-shadow: 0px 0px 21px rgba(0,0,0,1);
+  padding: 0 10%
 }
 
 #contact-pic { 
   height: 500px;
-  background-image: url('../images/utopia_flowers.jpg');
+  background-image: url('../images/utopia_flowers-min.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -514,7 +532,7 @@ section.page-slides .row {
 
 /* Contact Form */
 #FSContact1 {
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 
@@ -551,6 +569,30 @@ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
   opacity: 1;
 }
 
+#fscf_submit_div1 input {
+    background-color: rgb(191, 215, 48);
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    width: 180px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,1);
+    box-shadow: 0px 0px 20px rgba(0,0,0,1);
+    text-align: center;
+    border-radius: 10px 10px 16px;
+    padding: 10px;
+    transition: 200ms all ease-in;
+    margin-left: calc(50% - 90px);
+}
+
+#fscf_submit_div1 input:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0);
+  text-shadow: 0px 0px 20px rgba(0,0,0,0);
+  background-color: rgb(191, 215, 48);
+  color: #fff;
+  transition: 200ms all ease-in;
+}
+
 /* extra responsive styles */
 
 /* medium only */
@@ -563,9 +605,24 @@ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
   }
 }
 
+@media only screen and (max-width:50em) {
+  .contact-blocks h1,
+  .contact-blocks h2,
+  .contact-blocks h3,
+  .contact-blocks h4 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width:676px) {
+  #slide2 h2 {
+    font-size: xx-large;
+  }
+}
+
 
 /* small only */
-@media only screen and (max-width:40em) {
+@media only screen and (max-width:642px) {
   section.page-slides .row,
   header .row {
     height: 400px;
@@ -576,9 +633,6 @@ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
     font-size: 300%;
   }
   
-  section.page-slides #slide3 h2 {
-    color: #000;
-  }
   /*section.page-slides #slide3 h1, section.page-slides #slide3 h2{text-shadow:0 0 4px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff, 0 0 8px #fff, 0 0 9px #fff;}*/
   
   section.page-slides #slide-top200 {
@@ -607,6 +661,14 @@ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
     border-bottom: none;
   }
 
+  #contact-book-salon, #contact-book-salon:hover {
+    background-size: cover;
+  }
+
+  #contact-book-spa, #contact-book-spa:hover {
+    background-size: cover;
+  }
+
   #contact-blocks {
     padding: 4% 0;
   }
@@ -619,11 +681,43 @@ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
     border-left: 10px solid white;
   }
 
+  .contact-blocks h1,
+  .contact-blocks h2,
+  .contact-blocks h3,
+  .contact-blocks h4 {
+    padding: 0 10%;
+    font-size: 29px;
+  }
+
   form#fscf_form1 {
     padding-top: 18%;
   }
 
   #FSContact1 {
     width: 80%;
+  }
+}
+
+/* x-small only */
+
+@media only screen and (max-width:434px) {
+  #slide2 h2 {
+    font-size: x-large;
+  }
+
+  #slide3 h2 {
+    font-size: x-large;
+  }
+
+  .book-button {
+    margin-top: 20px;
+  }
+  
+  a#book-button2 {
+    margin-right: 0;
+  }
+
+  .learn-button {
+    margin-top: 20px;
   }
 }
